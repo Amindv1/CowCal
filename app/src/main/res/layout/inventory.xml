@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:freezesText="true"
+        android:backgroundTint="#f4d05e"
+        android:id="@+id/invtext"/>
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/child"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:id="@+id/tv2"
+            android:text="@string/map"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="openMap"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:textColor="#FFFFFFFF"
+            android:background="@drawable/button"
+            android:showAsAction="always|withText"
+            />
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+
+            android:id="@+id/tv4"
+            android:text="@string/shop"
+            android:gravity="center"
+            android:onClick="openShop"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:textColor="#FFFFFFFF"
+            android:background="@drawable/button"
+            android:showAsAction="always|withText"
+            />
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+
+            android:id="@+id/tv3"
+            android:text="@string/inv"
+            android:gravity="center"
+            android:onClick="openInv"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="#FFFFFFFF"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:showAsAction="always|withText"
+            />
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:id="@+id/tv"
+            android:text="@string/stats"
+            android:gravity="center"
+            android:onClick="openStats"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="#FFFFFFFF"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:showAsAction="always|withText"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

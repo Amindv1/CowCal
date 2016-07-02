@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CowCal</string>
+    <string name="stats">Statistics</string>
+    <string name="action_settings">Settings</string>
+    <string name="shop">Shop</string>
+    <string name="map">Map</string>
+    <string name="inv">Inventory</string>
+
+    <string name="step_count">step_count</string>
+    <string name="home_button">Home</string>
+    <string name="reset_count_button">Reset Steps</string>
+
+</resources>
